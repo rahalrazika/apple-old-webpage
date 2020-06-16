@@ -62,18 +62,18 @@ nav a {
   padding-top: 5px;
 }
 
-.search-li{
+.search-li {
   width: 400px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-.search-container{
+.search-container {
   border: 1px solid var(--color-dark-black);
-border-radius: 15px;
-padding: 2px;
-background-color: var(--color-dark-black);
-margin-top: 4px;
+  border-radius: 15px;
+  padding: 2px;
+  background-color: var(--color-dark-black);
+  margin-top: 4px;
 }
 
 .search-container form {
@@ -89,9 +89,3 @@ margin-top: 4px;
   color: var(--color-white);
   outline: none;
 }
-/* 
-.fa-search{
-  color: var(--color-white);
-  background-color: var(--color-dark-black);
-  border: none;
-} */
