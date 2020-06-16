@@ -116,24 +116,20 @@ main {
 }
 
 .verse-container div {
- width: 100%;
-}
-.verse-container img {
-    
-   width: 70%;
-   margin-left: 200px;
-   cursor: pointer;
+  width: 100%;
 }
 
+.verse-container img {
+  width: 70%;
+  margin-left: 200px;
+  cursor: pointer;
+}
 
 .img-3-container {
   max-height: 30px;
   overflow-y: hidden;
 }
 
-
 .img-3-container:hover {
-  
   border-bottom: 1px solid var(--color-white);
-  
-  }
+}
