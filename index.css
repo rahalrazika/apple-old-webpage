@@ -88,6 +88,7 @@ nav a {
   background-color: var(--color-dark-black);
   margin-top: 4px;
   width: 100%;
+  box-shadow: inset 1px 1px 1px 1px var(--color-black);
 }
 
 .search-container form {
@@ -106,6 +107,12 @@ nav a {
   border: none;
   color: var(--color-white);
   outline: none;
+}
+
+.fa-search {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .main {
