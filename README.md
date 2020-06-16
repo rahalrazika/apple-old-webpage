@@ -1,6 +1,6 @@
 # apple-old-webpage
 
-![screenshot](img/screenshot/screen-shot-nyt.png)
+![screenshot](img/apple-old-page-screenshot.png)
 
 This project was created  for educational purpose for  practicing the Gradients and backgrounds in HTML and CSS 
  we did that using an example of [apple old page](https://web.archive.org/web/20140301004610/http://www.apple.com)  
