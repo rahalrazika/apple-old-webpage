@@ -1,0 +1,59 @@
+:root {
+  --color-black: rgb(95, 95, 95);
+  --color-blue: rgb(0, 151, 219);
+  --color-white: rgb(255, 255, 255);
+  --color-grey: rgb(205, 205, 205);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--lato-sans-font);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+body {
+  background-image: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  background-color: var(--color-black);
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav li {
+  border-right: 1px solid var(--color-white);
+  height: 30px;
+  width: 100%;
+}
+
+nav span {
+  color: var(--color-white);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
