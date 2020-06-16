@@ -23,10 +23,16 @@ a {
 }
 
 body {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-content{
   background-image: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 137%;
 }
 
 nav {
@@ -112,7 +118,6 @@ main {
 .verse-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .verse-container div {
@@ -128,8 +133,59 @@ main {
 .img-3-container {
   max-height: 30px;
   overflow-y: hidden;
+  margin-top: 30px;
 }
 
-.img-3-container:hover {
-  border-bottom: 1px solid var(--color-white);
+.main-bottom{
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  align-content: center;
+  width: 100%;
+}
+
+.main-bottom img{
+  height: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+footer {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+  font-size: 0.7rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  color: var(--color-dark-black);
+}
+
+footer p{
+  margin-bottom: 10px;
+}
+
+footer a{
+  color: var(--color-blue);
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+.footer-links ul {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.right-bordered{
+  border-right: 1px solid var(--color-dark-black);
+}
+
+.footer-links img{
+  height: 15px;
+  width: 15px;
 }
