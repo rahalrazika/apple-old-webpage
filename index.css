@@ -101,3 +101,7 @@ nav a {
   color: var(--color-white);
   outline: none;
 }
+
+main {
+  margin-top: 100px;
+}
