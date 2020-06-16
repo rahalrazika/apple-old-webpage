@@ -29,10 +29,8 @@ body {
 }
 
 .main-content {
-  background-image: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+  background: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg") no-repeat 50% 128% scroll;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 137%;
 }
 
 nav {
@@ -151,7 +149,8 @@ nav a {
 }
 
 .main-bottom img {
-  height: 200px;
+  height: 100%;
+  width: 100%;
   margin-top: 100px;
 }
 
