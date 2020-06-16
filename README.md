@@ -12,7 +12,7 @@ This project was created  for educational purpose for  practicing the Gradients 
 
 ## Live Demo
 
-[Live Demo Link](https://serene-rosalind-e3531b.netlify.app/)
+[Live Demo Link](https://raw.githack.com/rahalrazika/apple-old-webpage/add-apple-webpage/index.html)
 
 ## Getting Started
 

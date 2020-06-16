@@ -28,7 +28,7 @@ body {
   overflow-x: hidden;
 }
 
-.main-content {
+main {
   background: url("https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg") no-repeat 50% 120% scroll;
   background-size: cover;
 }
@@ -113,7 +113,7 @@ nav a {
   margin-right: 5px;
 }
 
-.main {
+.main-body {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
