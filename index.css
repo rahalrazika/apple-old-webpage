@@ -30,7 +30,7 @@ body {
 }
 
 nav {
-  background: linear-gradient(var(--color-dark-black),var(--color-black));
+  background: linear-gradient(var(--color-dark-black), var(--color-black));
   border-radius: 5px;
   width: 70%;
   position: relative;
@@ -56,7 +56,7 @@ nav li {
   width: 100%;
 }
 
-nav li:hover{
+nav li:hover {
   background-color: var(--color-black);
 }
 
@@ -89,7 +89,7 @@ nav a {
   flex-direction: row;
 }
 
-.search-container span{
+.search-container span {
   color: var(--color-white);
 }
 
